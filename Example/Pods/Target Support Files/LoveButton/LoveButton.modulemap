@@ -1,0 +1,6 @@
+framework module LoveButton {
+  umbrella header "LoveButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

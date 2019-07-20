@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <viewController id="eDX-xM-EKm">
+            <view key="view" contentMode="scaleToFill" id="LCT-5t-9RQ">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="4HK-54-2zA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="3hT-ni-EeR">
+                        <rect key="frame" x="87.5" y="283.5" width="200" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="100" id="Mzu-wF-7Yx"/>
+                            <constraint firstAttribute="width" constant="200" id="dwv-1c-As5"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="4HK-54-2zA" firstAttribute="bottom" secondItem="LCT-5t-9RQ" secondAttribute="bottom" id="Fro-if-uGZ"/>
+                    <constraint firstItem="3hT-ni-EeR" firstAttribute="centerX" secondItem="LCT-5t-9RQ" secondAttribute="centerX" id="KGG-Kt-iYN"/>
+                    <constraint firstItem="4HK-54-2zA" firstAttribute="top" secondItem="LCT-5t-9RQ" secondAttribute="top" id="OZP-gH-stB"/>
+                    <constraint firstItem="4HK-54-2zA" firstAttribute="leading" secondItem="AuU-Nq-XNQ" secondAttribute="leading" id="Tkf-bE-2tu"/>
+                    <constraint firstItem="4HK-54-2zA" firstAttribute="trailing" secondItem="AuU-Nq-XNQ" secondAttribute="trailing" id="hAJ-kL-wEU"/>
+                    <constraint firstItem="3hT-ni-EeR" firstAttribute="centerY" secondItem="LCT-5t-9RQ" secondAttribute="centerY" id="lDx-3A-29o"/>
+                </constraints>
+                <viewLayoutGuide key="safeArea" id="AuU-Nq-XNQ"/>
+            </view>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </viewController>
+    </objects>
+    <resources>
+        <image name="background" width="720" height="1280"/>
+        <image name="logo" width="509" height="103"/>
+    </resources>
+</document>

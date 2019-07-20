@@ -1,0 +1,16 @@
+PODS:
+  - LoveButton (0.3.0)
+
+DEPENDENCIES:
+  - LoveButton (from `../`)
+
+EXTERNAL SOURCES:
+  LoveButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LoveButton: 36581ef1a2a11a3dab1fa503d0f26f1c9ecff682
+
+PODFILE CHECKSUM: 1a4169fda983b7f45c21d825e58145fd1df39aad
+
+COCOAPODS: 1.7.4
