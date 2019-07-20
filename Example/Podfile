@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LoveButton_Example' do
+  pod 'LoveButton', :path => '../'
+
+  target 'LoveButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
