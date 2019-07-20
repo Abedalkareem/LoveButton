@@ -1,6 +1,6 @@
 
 <p align="center">
- <img src="https://raw.githubusercontent.com/Abedalkareem/LoveButton/master/LoveButton/Resources/Assets.xcassets/logo.imageset/logo.png"  width="350">  </center>
+ <img src="https://github.com/Abedalkareem/LoveButton/blob/master/Example/LoveButton/Images.xcassets/logo.imageset/logo.png?raw=true"  width="350">  </center>
 </p>
 <br>
 Love button is a custom phone button with an animated effect that showing hearts or custom images. 
