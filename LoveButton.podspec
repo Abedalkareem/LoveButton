@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LoveButton'
-  s.version          = '0.3.0'
-  s.summary          = 'Love button is a custom iOS button with animated effect that showing hearts.'
+  s.version          = '1.0.0'
+  s.summary          = 'Love button is a custom iOS button with amazing animation.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-Love button is a custom phone button with an animated effect that showing hearts or custom images.
+Love button is a custom button that emits images when tapped.
                        DESC
 
   s.homepage         = 'https://github.com/Abedalkareem/LoveButton'
@@ -27,11 +27,11 @@ Love button is a custom phone button with an animated effect that showing hearts
   s.author           = { 'Abedalkareem' => 'abedalkareem.omreyh@yahoo.com' }
   s.source           = { :git => 'https://github.com/Abedalkareem/LoveButton.git', :tag => s.version.to_s }
   s.swift_version = '5.0'
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/AbedalkareemOmr'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '14.0'
 
-  s.source_files = 'LoveButton/Classes/**/*'
+  s.source_files = 'LoveButton/LoveButton/Classes/**/*'
   
   # s.resource_bundles = {
   #   'LoveButton' => ['LoveButton/Assets/*.png']

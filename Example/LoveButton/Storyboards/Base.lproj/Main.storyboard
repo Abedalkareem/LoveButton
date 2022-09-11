@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2Zk-bs-1Bv">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2Zk-bs-1Bv">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -13,13 +11,13 @@
         <!--View Controller-->
         <scene sceneID="UGi-Ye-pRy">
             <objects>
-                <viewController id="D2L-dI-yt5" customClass="ViewController" customModule="LoveButton_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="D2L-dI-yt5" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Clv-KJ-DEb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndz-ss-EOT" customClass="LoveButton" customModule="LoveButton">
-                                <rect key="frame" x="152.5" y="266.5" width="70" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndz-ss-EOT" customClass="LoveButton" customModule="LoveButton">
+                                <rect key="frame" x="152.5" y="298.5" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="0wE-To-nvu"/>
                                     <constraint firstAttribute="width" constant="70" id="pSR-E9-XOZ"/>
@@ -31,7 +29,7 @@
                                         <color key="value" red="1" green="0.4549019608" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="unLoveColor">
-                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="value" red="0.66666666669999997" green="0.66666666669999997" blue="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="numberOfHearts">
                                         <integer key="value" value="200"/>
@@ -41,37 +39,36 @@
                                     <action selector="love:" destination="D2L-dI-yt5" eventType="touchUpInside" id="MQ0-I0-I4e"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvj-08-MIp" customClass="LoveButton" customModule="LoveButton">
-                                <rect key="frame" x="252.5" y="216.5" width="70" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dvj-08-MIp" customClass="LoveButton" customModule="LoveButton">
+                                <rect key="frame" x="252.5" y="248.5" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="IFW-RP-ek2"/>
                                     <constraint firstAttribute="height" constant="70" id="rfV-36-fqN"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="loveImage" value="star_icon"/>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="unLoveImage" value="star_icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="loveColor">
-                                        <color key="value" red="1" green="0.67678120959999999" blue="0.75130293209999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="value" red="1" green="0.67843137254901964" blue="0.75294117647058822" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="color" keyPath="unLoveColor">
-                                        <color key="value" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="value" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     </userDefinedRuntimeAttribute>
                                     <userDefinedRuntimeAttribute type="number" keyPath="numberOfHearts">
                                         <integer key="value" value="200"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="loveImage" value="star_icon"/>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="unLoveImage" value="star_icon"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="love:" destination="D2L-dI-yt5" eventType="touchUpInside" id="2D1-56-jB0"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd0-2D-3ec" customClass="LoveButton" customModule="LoveButton">
-                                <rect key="frame" x="52.5" y="216.5" width="70" height="70"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kd0-2D-3ec" customClass="LoveButton" customModule="LoveButton">
+                                <rect key="frame" x="52.5" y="248.5" width="70" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="70" id="8ge-V5-CHl"/>
                                     <constraint firstAttribute="height" constant="70" id="YbY-dX-vCe"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="image" keyPath="loveImage" value="thumb_icon"/>
                                     <userDefinedRuntimeAttribute type="image" keyPath="unLoveImage" value="thumb_icon"/>
                                     <userDefinedRuntimeAttribute type="color" keyPath="loveColor">
                                         <color key="value" red="1" green="0.71829072169999997" blue="0.880859375" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -82,31 +79,33 @@
                                     <userDefinedRuntimeAttribute type="number" keyPath="numberOfHearts">
                                         <integer key="value" value="200"/>
                                     </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="image" keyPath="loveImage" value="thumb_icon"/>
                                 </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="love:" destination="D2L-dI-yt5" eventType="touchUpInside" id="Vrs-EP-yHb"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="Pbh-uh-vGU">
-                                <rect key="frame" x="62.5" y="96.5" width="250" height="80"/>
+                                <rect key="frame" x="62.5" y="128.5" width="250" height="80"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="Zwd-bD-For"/>
                                     <constraint firstAttribute="width" constant="250" id="cnO-uo-vWd"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="s8n-yS-LiG">
-                                <rect key="frame" x="0.0" y="563" width="375" height="40"/>
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="Vu9-8K-nwk"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Made with love" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bhu-I1-5uB">
-                                <rect key="frame" x="126.5" y="572.5" width="122.5" height="21"/>
+                                <rect key="frame" x="127" y="636.5" width="121.5" height="21"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                 <color key="textColor" red="1" green="0.4549019608" blue="0.56470588239999997" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="eiK-4G-TWv"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Dvj-08-MIp" firstAttribute="leading" secondItem="ndz-ss-EOT" secondAttribute="trailing" constant="30" id="5nx-9F-3U3"/>
@@ -123,7 +122,6 @@
                             <constraint firstItem="Dvj-08-MIp" firstAttribute="top" secondItem="ndz-ss-EOT" secondAttribute="top" constant="-50" id="q6F-Mo-rq9"/>
                             <constraint firstAttribute="bottom" secondItem="s8n-yS-LiG" secondAttribute="bottom" id="sqN-en-5lz"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="eiK-4G-TWv"/>
                     </view>
                     <navigationItem key="navigationItem" id="qsl-c7-eWS"/>
                     <connections>
@@ -141,13 +139,14 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2Zk-bs-1Bv" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="xDD-EJ-1mc">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="xDD-EJ-1mc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" red="1" green="0.27381131949999998" blue="0.4965951462" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <textAttributes key="titleTextAttributes">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         </textAttributes>
+                        <navigationBarAppearance key="standardAppearance"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -159,6 +158,17 @@
             <point key="canvasLocation" x="-407" y="161"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="Dvj-08-MIp">
+            <size key="intrinsicContentSize" width="128" height="128"/>
+        </designable>
+        <designable name="kd0-2D-3ec">
+            <size key="intrinsicContentSize" width="128" height="128"/>
+        </designable>
+        <designable name="ndz-ss-EOT">
+            <size key="intrinsicContentSize" width="128" height="128"/>
+        </designable>
+    </designables>
     <resources>
         <image name="background" width="720" height="1280"/>
         <image name="heart_icon" width="128" height="128"/>
