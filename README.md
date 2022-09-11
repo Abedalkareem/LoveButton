@@ -18,15 +18,16 @@ Love button is a custom button that emits images when tapped.
 ## Usage
 
 
-In the interface builder go to identity inspector and set the custom class to ```LoveButton```
+- In the interface builder go to identity inspector and set the custom class to ```LoveButton```.   
 <img src="https://github.com/Abedalkareem/LoveButton/blob/master/screenshots/customclass.png?raw=true"  width="250">
 
-Then go to attrbute inspector and set the ```loveImage```,```unLoveImage```,```loveColor```,```unLoveColor```
+- Then move to attrbute inspector and set the ```loveImage```,```unLoveImage```,```loveColor```, and ```unLoveColor```.  
 <img src="https://github.com/Abedalkareem/LoveButton/blob/master/screenshots/inspector.png?raw=true"  width="250">
 
 
 
--In the class, just change the ```isLoved``` to true to show the animation, (remember to add default value for the isLoved)
+- In the `ViewController`, change the ```isLoved``` to true to show the animation.  
+*Note: remember to add default value for the `isLoved`*  
 ```swift
   // love button IBOutlet
   @IBOutlet weak var btnLove: LoveButton!
